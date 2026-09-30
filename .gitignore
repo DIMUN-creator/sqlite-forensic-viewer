@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# 분석 산출물 (증거/개인정보가 담길 수 있으므로 커밋 금지)
+*.sqlite
+*.db
+*.sqlite3
+validation_report.csv
+*_report.html
+evidence_copy*
+
+# 단, samples 폴더의 연습용 데이터는 예외로 포함
+!samples/*.sqlite
+!samples/*.txt
+!samples/*.html
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
